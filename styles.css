@@ -1,13 +1,44 @@
-.image {
-    width: 200px;
-    height: 300px;
+body {
+  background-color: hsl(30, 38%, 92%);
 }
 
+.container {
+  display: block;
+  margin: 100px auto;
+  width: 500px;
+}
+
+.second-col {
+  background: hsl(0, 0%, 100%);
+}
+
+.image {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.row .no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.row.no-gutters [class^="col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
 
 .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (min-width: 768px) {
+  .image {
+    content: url(images/image-product-desktop.jpg);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 0;
+  }
+}
