@@ -1,12 +1,16 @@
 body {
   background-color: hsl(30, 38%, 92%);
-  font-family: "montserrat", "Fraunces";
+  font-family: "montserrat", Fraunces;
 }
 
 .container {
   display: block;
   margin: 100px auto;
   width: 500px;
+}
+
+h4 {
+  font-size: 28px;
 }
 
 .second-col {
@@ -32,6 +36,34 @@ body {
 
 .letter-space {
   letter-spacing: 5px;
+  font-size: 10px;
+}
+
+.main-paragraph {
+  font-size: 14px;
+}
+
+.first-price {
+  font-family: "Fraunces";
+  font-size: 28px;
+  color: hsl(158, 36%, 37%);
+}
+.second-price {
+  font-size: 11px;
+  position: relative;
+  bottom: 6px;
+}
+
+.btn {
+  background-color: hsl(158, 36%, 37%);
+  color: hsl(0, 0%, 100%);
+  font-size: 14px;
+  width: 200px;
+}
+
+.btn:hover {
+  background-color: hsl(158, 36%, 37%);
+  color: hsl(0, 0%, 100%);
 }
 
 .attribution {
